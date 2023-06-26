@@ -1,0 +1,14 @@
+{
+  "name": "mach-config-formatter",
+  "version": "1.0.0",
+  "description": "A formatter for mach-config files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
