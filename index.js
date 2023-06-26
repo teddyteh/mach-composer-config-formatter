@@ -12,7 +12,7 @@ const currentPath = process.cwd();
 
 function sortObjectKeys(obj) {
   const sortedObj = {};
-  const sortedKeys = Object.keys(obj).sort((a, b) => obj[a] - obj[b]);
+  const sortedKeys = Object.keys(obj).sort((a, b) => a.localeCompare(b));
 
   for (const key of sortedKeys) {
     if (typeof obj[key] === "object" && !Array.isArray(obj[key])) {
