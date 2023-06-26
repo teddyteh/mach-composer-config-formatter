@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/teddyteh/mach-config-formatter/compare/v1.2.0...v1.2.1) (2023-06-26)
+
+
+### Bug Fixes
+
+* variables and secrets sorting ([1c4123b](https://github.com/teddyteh/mach-config-formatter/commit/1c4123ba9d006e4d1f57367d6c25a33499a54f38))
+
 ## [1.2.0](https://github.com/teddyteh/mach-config-formatter/compare/v1.1.0...v1.2.0) (2023-06-26)
 
 
